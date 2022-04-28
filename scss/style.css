@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  min-height: 100vh;
+  min-width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 400, 700;
+}
+
+.container {
+  min-height: 100vh;
+  min-width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-bar {
+  background-color: white;
+  width: 75vw;
+  left: 10%;
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.nav-bar ul {
+  overflow: auto;
+}
+
+.nav-bar li {
+  float: left;
+  list-style-type: none;
+  margin: 25px 15px;
+  position: relative;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  padding: 5px 5px;
+  position: relative;
+}
+
+.nav-bar li a:after {
+  content: "";
+  position: absolute;
+  background-color: orange;
+  height: 4px;
+  width: 0;
+  left: 0;
+  bottom: -25px;
+}
+
+.nav-bar li a:hover:after {
+  width: 100%;
+}
+
+.gallery img {
+  width: 22vw;
+  height: 50vh;
+  position: relative;
+  border-radius: 4%;
+  left: 14%;
+  margin-top: 5%;
+}
+
+.gallery .th1 {
+  width: 4.5vw;
+  height: 10vh;
+  position: absolute;
+  border-radius: 10%;
+  margin-top: 29%;
+}
+
+.gallery .th2 {
+  width: 4.5vw;
+  height: 10vh;
+  position: absolute;
+  border-radius: 10%;
+  margin-top: 29%;
+  margin-left: 6%;
+}
+
+.gallery .th3 {
+  width: 4.5vw;
+  height: 10vh;
+  position: absolute;
+  border-radius: 10%;
+  margin-top: 29%;
+  margin-left: 12%;
+}
+
+.gallery .th4 {
+  width: 4.5vw;
+  height: 10vh;
+  position: absolute;
+  border-radius: 10%;
+  margin-top: 29%;
+  margin-left: 18%;
+}
+
+.container h1 {
+  position: absolute;
+  left: 45%;
+  margin-top: 10%;
+}
+
+.container h5 {
+  position: absolute;
+  left: 45%;
+  margin-top: 18%;
+}
+
+.container h4 {
+  position: absolute;
+  left: 45%;
+  margin-top: 23%;
+  font-size: 25px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
